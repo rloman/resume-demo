@@ -1,0 +1,159 @@
+{
+  "personalia": {
+    "firstNameLastName": "John Doe",
+    "dateOfBirth": "1968-08-09",
+    "addressHouseNumber": "my home address",
+    "email": "your email",
+    "zipCode": "your zipcode",
+    "city": "city",
+    "country": "country",
+    "telephone": "374834",
+    "mobile": "938434",
+    "url": "http://www.carpago.nl",
+    "maritalStatus": "married",
+    "children": 2,
+    "drivingLicense": "B"
+  },
+  "personalIntroduction": {
+  	"titleI18N": {
+  		"nl":"{empty}",
+  		"en":"{empty}"
+  	},
+  	"linesI18N": {
+  		"nl":
+  			["line1",
+			"",
+  			"line 3"
+  		],
+  		"en":
+  			["Below you find the résumé of me, Raymond Loman. Married, proud father of two children and {age} years old.",
+              "",
+              "After my school period I worked from 1989 to 2002 as a system administrator within environments with Novell Netware, Linux and Windows NT / 2000.",
+              "",
+              "Since 2002 I am a full-time developer within the Java ecosystem and related environments, from 2002 to 2007 as an employee and from 2007 as an independent entrepreneur within Carpago Software in the role of T-shaped Software Engineer Java.",
+              "",
+              "I also provide training courses in the field of Software Engineering, usually in an environment in which Java is involved such as OCA / OCP, Spring Boot and Tomcat."
+  		]
+  	}
+  },
+  "recommendations": [
+    {
+      "linesI18N": {
+        "nl": [
+          "Raymond gebruikt zijn enorme energie en passie voor technologie en mensen om een positieve verandering te creëren.",
+          "Als producent van software alleen is hij een waardevolle toevoeging aan een team, maar laat hem bouwen op mensen (soft en hard skills) en hij zal je laten zien wat er kan worden bereikt door middel van vermenigvuldiging.",
+          "Als uw organisatie een bureaucratisch beest is, dan zou ik hem niet bellen.",
+          "Als u echter door de bureaucratie heen wilt breken en iets 'agile' en waardigs in plaats daarvan wilt bouwen, bel hem dan."
+        ],
+        "en": [
+          "Raymond uses his enormous energy and passion for technology and people to create positive change.",
+          "As a producer of software alone he's a valuable addition to any team, but let him build on people (soft and hard skills) and he'll show you what can be achieved through multiplication.",
+          "If your organisation is a bureaucratic beast, don't call him.",
+          "If however you want to break through bureaucracy and build something agile and worthwhile in its place, do call him."
+        ]
+      },
+      "whoI18N": {
+        "nl": "een vroegere collega",
+        "en": "a former collegae"
+      }
+    },
+     {
+      "linesI18N": {
+        "nl": [
+          "Raymond is een hard-core software engineer.",
+          "Heeft een grote beheersing van software-engineering in het algemeen en Java EE – inclusief de diverse frameworks – in het bijzonder.",
+          "Kan zeer snel software draaiend krijgen.",
+          "Verder heeft hij een goede communicatieve en schriftelijke vaardigheid. Is een echte 'pragmatische programmeur' en probeert altijd te werken in de richting van oplossingen.",
+          "Daarbij denkt hij 'out of the box' en ziet oplossingen in een richting die niet zo voor de hand liggen.",
+          "Verder is Raymond een zeer sociaal en vriendelijk persoon.",
+          "Kan zeer goed zelfstandig en gediscliplineerd werken maar is tevens een goede team-player.",
+          "Werkt effectief conform de 7 habits van Stephen Covey en houdt zich hier ook aan!",
+          "Zijn bescheidenheid en nuchterheid sieren hem.",
+          "",
+          "Raymond is als docent zeer betrokken bij de cursisten en heeft een uitstekende didactische vaardigheid.",
+          "Zijn lessen zijn altijd levendig en vol interessante leermomenten."
+        ],
+        "en": [
+          "Raymond is a hard-core software engineer.",
+          "Has a large scale knowledge of software engineering in general, and Java EE - including the various frameworks - in particular.",
+          "He can fix software-problems very quick and good and get the software running when a problem occurs",
+          "He also has a good set of communication and writing skills. Is a real 'pragmatic programmer' and always tries to work toward solutions.",
+          "Furthermore, he thinks 'outside the box' and finds solutions in a direction which is not so obvious.",
+          "Raymond is a very social and friendly person.",
+          "May very well independently and disciplined work but is also a good team player.",
+          "Works effectively in accordance with the 7 Habits of Stephen Covey and adheres well here!",
+          "His modesty and sobriety adorn him.",
+          "",
+          "Raymond teaches very involved with the students and has excellent teaching skills.",
+          "His classes are always lively and full of interesting learning moments."
+        ]
+      },
+      "whoI18N": {
+        "nl": "een voormalige HR-manager",
+        "en": "a former HR-manager"
+      }
+    }
+  ],
+  "consultancies": []
+  ,
+  "personalProjects": [
+     ],
+  "assignments": [
+
+     ],
+  "manuallyOverriddenKnowledge" :[
+
+
+  ],
+  "trainings": [
+  ],
+  "employers": [
+    ],
+  "educationContainer": {
+    "schools": [
+      ],
+    "other": [
+      ],
+    "courses": []
+  },
+  "additionalInformation": {
+    "hobbiesI18N": {
+      "nl": [
+        "hardlopen",
+        "fietsen",
+        "videografie",
+        "muziek luisteren"
+      ],
+      "en": [
+        "running",
+        "cycling",
+        "video editing",
+        "listening to music"
+      ]
+    },
+    "pointsOfAttentionI18N": {
+      "nl": [
+        "Kan soms uit zijn passie en vakmanschap wat te energiek overkomen bij anderen"
+      ],
+      "en": [
+        "Sometimes his passion and skill are too energetic to others"
+      ]
+    },
+    "remainderI18N": {
+      "nl": [
+        "nauwgezet",
+        "creatief",
+        "communicatief vaardig",
+        "gemotiveerd",
+        "competent"
+      ],
+      "en": [
+        "accurate",
+        "creative",
+        "communicative",
+        "motivated",
+        "competent"
+      ]
+    }
+  }
+}
