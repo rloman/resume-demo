@@ -214,7 +214,7 @@ public class AsciidocGeneratingVisitorTest extends GeneratingVisitorTestHelper {
 
       int line = 1;
       check("=== Beknopt overzicht opdrachten", line++);
-      check(".Carpago Software", line++);
+      check(".Acme Software", line++);
       line++;
       
       check("[cols=\"4,4,3\" options=\"header\", caption=\"\", frame=\"all\" ]", line++);
@@ -245,7 +245,7 @@ public class AsciidocGeneratingVisitorTest extends GeneratingVisitorTestHelper {
 
       int line = 1;
       check("=== Beknopt overzicht opdrachten", line++);
-      check(".Carpago Software", line++);
+      check(".Acme Software", line++);
       line++;
       
       check("[cols=\"4,4,3\" options=\"header\", caption=\"\", frame=\"all\" ]", line++);
