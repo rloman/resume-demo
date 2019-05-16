@@ -64,10 +64,10 @@ public class AsciidocGeneratingVisitor implements Visitor {
    private static final byte MINIMAL_STARS_TO_BE_IN_KNOWLEDGEMATRIX = 3;
 
    private static final String EMPTY_ASCIIDOC = "{empty}";
-   private static final String CARPAGO_SOFTWARE_TITLE = ".Carpago Software";
-   private static final String CARPAGO_CONSULTANCY_TITLE = ".Carpago Consultancy";
+   private static final String CARPAGO_SOFTWARE_TITLE = ".Acme Software";
+   private static final String CARPAGO_CONSULTANCY_TITLE = ".Acme Consultancy";
    private static final String TABLE_BEGIN_END_ASCIIDOC = "|===";
-   private static final String CARPAGO_TRAINING_TITLE = ".Carpago Training";
+   private static final String CARPAGO_TRAINING_TITLE = ".Acme Training";
    private static final String TABLE_HEADER_DEFAULT = "[cols=\"4,4,3\" options=\"header\", caption=\"\", frame=\"all\" ]";
 
    private static final String TRAININGS_TABLE_HEADER = "[cols=\"8,3\" options=\"header\", \"footer\", caption=\"\", frame=\"all\" ]";
@@ -108,7 +108,7 @@ public class AsciidocGeneratingVisitor implements Visitor {
    private SectionFilter sectionFilter;
 
    // to hold if the introduction is already rendered or not
-   private boolean renderedIntroductionCarpago;
+   private boolean renderedIntroductionAcme;
 
    private Map<Topic, Integer> manuallyOverriddenStars = new HashMap<>();
    private Map<Topic, LocalDate> manuallyOverriddenLastUsed = new HashMap<>();
@@ -216,7 +216,7 @@ public class AsciidocGeneratingVisitor implements Visitor {
          }
 
          if (extensiveFilter.isSelfEmployedOn() || this.log(extensiveFilter)) {
-            System.out.printf("=== %s Carpago%n", this.labels.selfEmployed());
+            System.out.printf("=== %s Acme%n", this.labels.selfEmployed());
             System.out.println();
 
             if (extensiveFilter.isAssignments() || this.log(extensiveFilter)) {
